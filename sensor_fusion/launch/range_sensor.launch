@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="sensor_fusion" type="range_publisher.py" name="range_publisher" output="screen"></node>
+</launch>

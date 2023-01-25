@@ -1,0 +1,5 @@
+<launch>
+	<include file="/home/ubuntu/catkin_ws/src/sensor_fusion/launch/range_sensor.launch" />
+	<include file="/home/ubuntu/catkin_ws/src/rplidar_ros/launch/rplidar.launch" />
+	<include file="/home/ubuntu/catkin_ws/src/hector_slam/hector_slam_launch/launch/map.launch" />
+</launch>
